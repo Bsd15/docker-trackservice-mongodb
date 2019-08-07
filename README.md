@@ -2,6 +2,8 @@
 
 ##### This is an online application that helps users manage music listed on Music Database (https://www.last.fm). Using this app, a user should be able to search and manage music.
 
+Added MongoDB Docker container.
+
 Task - 8: Created 3 tracks using @Value, @PropertySource, Environment and @ConfigurationProperties. Check com.stackroute.trackservice.seeddata.TrackServiceApplicationListener, TrackServiceSeedDataCommandLineRunner
 
 Task - 10: @Primary added to TrackServiceImpl and @Qualifier added in TrackServiceSeedDataCommandLineRunner
