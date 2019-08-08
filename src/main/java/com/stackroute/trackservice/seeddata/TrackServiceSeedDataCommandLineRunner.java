@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  * created and seeds data to the database.
  */
 @Component
-//@PropertySource("track2.properties")
+@PropertySource("track2.properties")
 public class TrackServiceSeedDataCommandLineRunner implements CommandLineRunner {
     TrackService trackService;
 

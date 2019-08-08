@@ -15,6 +15,7 @@ import java.util.Optional;
  * Implements TrackService to provide basic insert, delete, get operations on Tracks
  */
 @Service
+@Primary
 @Profile("service")
 public class TrackServiceImpl implements TrackService {
     private TrackRepository trackRepository;
