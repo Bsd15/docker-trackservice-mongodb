@@ -16,7 +16,7 @@ import java.util.Optional;
  */
 @Service
 @Primary
-@Profile("service")
+@Profile("dev")
 public class TrackServiceImpl implements TrackService {
     private TrackRepository trackRepository;
 
