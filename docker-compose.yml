@@ -6,7 +6,7 @@ services:
     build: .
     container_name: track-service-java
     ports:
-      - '8080:8080'
+      - '8081:8081'
     network_mode: "host"
 #  Container for Mongo
 # docker run -d --name track-service-mongo -p 27017 -network host mongo
