@@ -17,8 +17,8 @@ import org.springframework.stereotype.Component;
  * starts or reloads and seeds predefined data into the database.
  */
 @Component
-@PropertySource("track3.properties")
-@ConfigurationProperties("track3")
+//@PropertySource("track3.properties")
+//@ConfigurationProperties("track3")
 
 public class TrackServiceApplicationListener implements ApplicationListener<ContextRefreshedEvent> {
 //   TrackService to perform database operations.
