@@ -6,6 +6,8 @@ Added MongoDB Docker container.
 
 **Docker containers run on localhost IP. Stop any services running in those ports before starting.**
 
+Added support for config-server. See [spring-boot-config-server](https://github.com/Bsd15/spring-boot-config-server)
+
 
 Task - 8: Created 3 tracks using @Value, @PropertySource, Environment and @ConfigurationProperties. Check com.stackroute.trackservice.seeddata.TrackServiceApplicationListener, TrackServiceSeedDataCommandLineRunner
 
