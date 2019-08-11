@@ -1,18 +1,14 @@
 version: "3"
 services:
 #  Container for Java
-#  docker run -d --name track-service-java -p 8080:8080 -network host spring-boot-java
+#  docker run -d --name track-service-java -network host spring-boot-java
   java:
     build: .
     container_name: track-service-java
-    ports:
-      - '8081:8081'
     network_mode: "host"
 #  Container for Mongo
-# docker run -d --name track-service-mongo -p 27017 -network host mongo
+# docker run -d --name track-service-mongo -network host mongo
   mongo:
     image: mongo
     container_name: track-service-mongo
-    ports:
-      - '27017:27017'
     network_mode: "host"

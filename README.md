@@ -8,6 +8,8 @@ Added MongoDB Docker container.
 
 Added support for config-server. See [spring-boot-config-server](https://github.com/Bsd15/spring-boot-config-server)
 
+Added Eureka Naming server config. 
+
 
 Task - 8: Created 3 tracks using @Value, @PropertySource, Environment and @ConfigurationProperties. Check com.stackroute.trackservice.seeddata.TrackServiceApplicationListener, TrackServiceSeedDataCommandLineRunner
 
